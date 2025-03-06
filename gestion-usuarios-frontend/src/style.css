@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+  background-color: #f8f9fc; /* Fondo más suave */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e4e8; /* Borde suave */
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Efecto de elevación */
+}
+
+h2 {
+  color: #6f42c1; /* Color vibrante */
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+table th {
+  background-color: #6f42c1; /* Encabezado morado */
+  color: white;
+  font-weight: bold;
+}
+
+table td {
+  background-color: #fafafa; /* Fondo más claro para las filas */
+}
+
+table td:hover {
+  background-color: #f1f1f1; /* Efecto hover en celdas */
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+button.btn-create {
+  background-color: #6f42c1; /* Morado */
+}
+
+button.btn-create:hover {
+  background-color: #5a32a3;
+}
+
+button.btn-edit {
+  background-color: #8a63d1; /* Morado claro */
+}
+
+button.btn-edit:hover {
+  background-color: #7b53c1;
+}
+
+button.btn-delete {
+  background-color: #d9534f; /* Rojo */
+}
+
+button.btn-delete:hover {
+  background-color: #c9302c;
+}
+
+/* Banner de imagen */
+.banner {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Estilos de formularios */
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  border-color: #6f42c1; /* Borde morado en foco */
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #6f42c1;
+  border: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #5a32a3;
+}
+
+/* Mensajes de error */
+.alert-danger {
+  color: #fff;
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
